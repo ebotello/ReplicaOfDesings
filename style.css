@@ -3,26 +3,29 @@ main{
     border: solid 8px palevioletred;
     font-family: 'Merriweather', serif;
     font-family: 'Quicksand', sans-serif;
-    padding: 1px 4px 1px 40px;
+    padding: 1px 150px 1px 150px;
 }
 .menuContainer{
 
     display: flex;
-    align-items: center;
     height: 100%;
     border: none;
-    justify-content: space-between;
-    margin-top: 5px;
-    padding: 20px;
+    justify-content: space-evenly;
+    margin-top: 5px 20px 5px 20px;
+    padding: 10px 60px 10 60px;
     font-size: 30px;
     margin-block-start: 0.83em;
-    font-weight: bolder;
+    font-weight: bold
+
+
 }
 .logo {
     border: none;
-    height: 40px;
+    height: 70px;
     width: auto;
     margin-top: 10px;
+   
+    
     
 
 }
@@ -31,14 +34,22 @@ main{
     text-decoration: none;
     border: none;
     list-style: none;
+    align-items: flex-end;
    
 }
 
-
 .presentacionPart{
     display: flex;
+    margin-right: 20%;
+    margin-left: 15%;
+    margin-top: 5%;
+    align-items: center;
 }
-
+h1.saludo {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-top: 160px;
+}
 .avatar {
     width: 400px;
     height: 400px;
@@ -65,10 +76,7 @@ a{
     flex-direction: column
 
 }
-h1 {
-    border: none;
-    margin: auto
-}
+
 .enlaceContainer {
     margin: 0;
     display: flex;
