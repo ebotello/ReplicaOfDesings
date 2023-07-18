@@ -1,20 +1,22 @@
 main{
-    background-color: papayawhip;
-    border: solid 8px palevioletred;
+    display: block;
+    background-color:f7c9c9;;
+    border: solid 5px palevioletred;
     font-family: 'Merriweather', serif;
     font-family: 'Quicksand', sans-serif;
-    padding: 1px 150px 1px 150px;
+    padding: 1em 2em 2em;
+    margin:0px; 
+    height:100%; 
+
 }
 .menuContainer{
 
     display: flex;
-    height: 100%;
+    width: 100%;
     border: none;
-    justify-content: space-evenly;
-    margin-top: 5px 20px 5px 20px;
-    padding: 10px 60px 10 60px;
-    font-size: 30px;
-    margin-block-start: 0.83em;
+    font-size: 40px;
+    align-items: center;
+    justify-content: space-between;
     font-weight: bold
 
 
@@ -28,27 +30,43 @@ main{
     
     
 
+} 
+.linkContainer {
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between
+
 }
-.optionLInk {
+li.optionLInk {
     color: black;
     text-decoration: none;
     border: none;
     list-style: none;
-    align-items: flex-end;
+    align-self:;
    
 }
 
 .presentacionPart{
     display: flex;
-    margin-right: 20%;
-    margin-left: 15%;
-    margin-top: 5%;
     align-items: center;
+    margin-left: 15%;
+}
+.rightContainer {
+    width: 70%;
+    margin-top: 10%;
+
+}
+.avatarContainer {
+    width: auto;
+    height: auto;
+    align-self: flex-start;
+    margin-top: 4%;
+    margin-right: 15%;
 }
 h1.saludo {
     font-size: 4rem;
-    font-weight: 900;
-    margin-top: 160px;
+    font: weight 900px;;
+    margin-top:160px;
 }
 .avatar {
     width: 400px;
@@ -58,10 +76,11 @@ h1.saludo {
     border-radius: 50%;
     padding: 0;
 }
-p{
+p.description {
     border: none;
-    margin-top: 20px;
-    margin-right: 20px;
+    font-size: 1.5rem;
+    margin-top: 60px;
+    
 }
 a{
     border: none;
@@ -73,23 +92,41 @@ a{
     border: none;
     justify-content: center;
     align-items: center;
-    flex-direction: column
-
+    flex-direction: column;
+    width: 1500px;
+    height: auto;
+  
 }
+.articlesTitle{
+    align-self: flex-start;
+    font-size: 54px;
+    font-weight: 600;
+}
+.articlesLink{
+    align-self: flex-end;
+}
+
 
 .enlaceContainer {
-    margin: 0;
     display: flex;
-    align-items: flex-start;
+    font-size: 36px;
+    font-weight: 800;
+    justify-content: flex-start;
+    margin: 0%;
+   
 
 }
-    
+
 div.articles{
     margin-top:  25px;
     border: solid 1px black;
     padding: 20px;
     box-shadow: 3px 3px 3px 6px black;
     border-radius: 20px;
+    justify-self: center;
+    width: 70%;
+    height: auto;
+    color: black;
     
 }
 div.questionContainer {
