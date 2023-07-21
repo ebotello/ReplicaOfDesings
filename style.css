@@ -7,6 +7,8 @@ main{
     padding: 1em 2em 2em;
     margin:0px; 
     height:100%; 
+    text-align: center;
+
 
 }
 .menuContainer{
@@ -42,8 +44,11 @@ li.optionLInk {
     text-decoration: none;
     border: none;
     list-style: none;
-    align-self:;
+    
    
+}
+li.optionLInk :hover {
+    transform: scale(1.1);
 }
 
 .presentacionPart{
@@ -93,17 +98,21 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 1500px;
-    height: auto;
+    width: 70%;
+    margin:  5% 20%;
+    padding: 0%;
+  
   
 }
 .articlesTitle{
     align-self: flex-start;
     font-size: 54px;
     font-weight: 600;
+   
 }
 .articlesLink{
     align-self: flex-end;
+    
 }
 
 
@@ -124,7 +133,7 @@ div.articles{
     box-shadow: 3px 3px 3px 6px black;
     border-radius: 20px;
     justify-self: center;
-    width: 70%;
+    width: 100%; 
     height: auto;
     color: black;
     
@@ -146,12 +155,29 @@ div.questionContainer {
 a.primaryBotton{
     border: solid 1px rgb(233, 54, 158);
     background-color:  rgb(233, 54, 158);
+    border-radius: ;
     color: aliceblue;
+
+}
+ .titleTwo {
+    color:black;
+    font-size: 72px;
+    font-weight: 700;
+    margin: 40px;
 
 }
  .lastContainer{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+    width: 800px; 
+    height: 350px;
+    border: solid 4px black;
+    border-radius: 8px;
+    margin: auto;
+    font-size: 36px;
+    font-weight: 700;
+      
 
 }
