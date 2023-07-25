@@ -33,6 +33,11 @@ main{
     
 
 } 
+img.menuIcon {
+    height: 50px;
+    width: 60px;
+    display: none;
+}
 .linkContainer {
     margin-left: 150px;
     display: flex;
@@ -49,6 +54,19 @@ li.optionLInk {
 }
 li.optionLInk :hover {
     transform: scale(1.1);
+}
+@media (max-width: 768px) {
+
+    .linkContainer {
+      display: none;
+    }
+    img.menuIcon {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    display: block;
+
+    }
 }
 
 .presentacionPart{
