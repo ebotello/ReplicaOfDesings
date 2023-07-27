@@ -55,19 +55,6 @@ li.optionLInk {
 li.optionLInk :hover {
     transform: scale(1.1);
 }
-@media (max-width: 768px) {
-
-    .linkContainer {
-      display: none;
-    }
-    img.menuIcon {
-    cursor: pointer;
-    width: 25px;
-    height: 25px;
-    display: block;
-
-    }
-}
 
 .presentacionPart{
     display: flex;
@@ -90,7 +77,7 @@ h1.saludo {
     font-size: 4rem;
     font: weight 900px;;
     margin-top:160px;
-}
+} 
 .avatar {
     width: 400px;
     height: 400px;
@@ -198,4 +185,66 @@ a.primaryBotton{
     font-weight: 700;
       
 
+}
+@media (max-width: 768px) {
+
+    .linkContainer {
+      display: none;
+    }
+    img.menuIcon {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    display: block;
+
+    }
+    section.presentacionPart{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80%;
+    
+    }
+    img.avatar{
+        margin-top: 10%;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    h1.saludo{
+        margin-top: 10%;
+        font-size: medium;
+    }
+    p.description {
+        font-size: small;
+    }
+    .enlaceContainer{
+        display: flex;
+        align-items: center;
+        font-size: small;
+        padding: 0%;
+        margin-right: 15%;
+        
+    }
+    .enlaceOption{
+        margin: 5%;
+    }
+    .titleTwo{
+        font-size: 40px;
+    }
+    .lastContainer{
+        width: 70%;
+        align-items: center;
+        display: flex;
+        
+    }
+    p{
+        font-size: small;
+    }
+    .primaryBotton{
+        height: 10%;
+        font-size: small;
+        align-self: center;
+        margin-left: 30%;
+
+    }
 }
