@@ -4,6 +4,7 @@
     padding: 0%;
     margin:0px;
     display: flex;
+    font-family: 'Times New Roman', Times, serif;
 }
 .container{
     display: flex;
@@ -27,7 +28,7 @@
     margin-left: 20%;
     align-self: start;
     position: sticky;
-    top: 20px;
+    top: 0px;
 
 }
 .name{
@@ -52,4 +53,36 @@
     margin-right: 20%;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
+    padding: 0%;
+}
+.history {
+    text-justify: distribute-all-lines;
+    margin-top: 20px;
+
+}
+.experienceContainer{
+    margin: 20px;
+    display: flex;
+    cursor: pointer;
+    column-gap: 10px;
+    justify-content: space-between;
+
+}
+.date{
+    color: black;
+    align-self: flex-start;
+    width: 50%;
+    height: auto;
+    
+    font-size: 15px;
+}
+.experienceTitle{
+    font-size: 25px;
+    font-weight: 200;
+}
+.experienceDescription{
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
 }
